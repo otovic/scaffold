@@ -1,7 +1,10 @@
 {
-  "name": "Scaffold",
-  "version": "0.0.1",
-  "private": true,
+  "name": "otx-scaffold",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otovic/scaffold"
+  },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -10,6 +13,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "otx-bottom-navigation-bar": "^1.0.0",
+    "otx-screen-header-bar": "^1.0.0",
     "react": "18.2.0",
     "react-native": "0.73.2"
   },
